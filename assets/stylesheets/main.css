@@ -29,6 +29,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
   line-height: 1;
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #474642;
 }
 ol, ul {
   list-style: none;
@@ -67,7 +69,48 @@ table {
   ===================================
 */
 
+.header-logo img {
+  width: 50%;
+  height: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 
+.refresh {
+  vertical-align: top;
+}
+
+.title-bar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 24px;
+  border-bottom: 1px solid #f0eee9;
+}
+
+.tweet {
+  padding-left: 30px;
+  padding-right: 30px;
+  min-height: 45px;
+}
+
+.username {
+  margin-right: 10px;
+  display: inline-block;
+  background: #3fcdfd;
+  font-weight: 300;
+  font-size: 9px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.timestamp {
+  float: right;
+  font-size: 12px;
+  text-align: right;
+}
 /*
   ===================================
   Testing
@@ -79,5 +122,12 @@ h1, h2, h3, h4, h5, nav button {
 
 div, iframe {
   outline: 1px dashed blue;
+}
+*/
+
+/*
+.tweet,
+.controls {
+  outline: 1px dashed black;
 }
 */
